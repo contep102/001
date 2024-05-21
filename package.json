@@ -1,0 +1,25 @@
+{
+  "name": "001-chatapp",
+  "version": "1.0.0",
+  "description": "FIRST PROJECT",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev-server": "nodemon backend/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
